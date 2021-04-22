@@ -454,11 +454,6 @@ public class AllyScript : MonoBehaviour
         return relativePosition;
     }
 
-    public void Test(string posName)
-    {
-        DetermineEnemyToKill(posName);
-    }
-
     public bool DetermineEnemyToKill(string enemyPosName)
     {
         Debug.Log($"DetermineEnemyToKill({enemyPosName})");
